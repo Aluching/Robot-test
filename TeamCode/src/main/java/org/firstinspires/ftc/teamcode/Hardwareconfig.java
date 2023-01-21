@@ -32,5 +32,6 @@ public class Hardwareconfig {
       pins=hw.get(Servo.class, "pins");
       crapperClaw=hw.get(Servo.class, "crapperClaw");
       capper=hw.get(Servo.class, "capper");
+      C:\Users\George\Documents\GitHub\Robot-test\TeamCode\src\main\java\org\firstinspires\ftc\teamcode\Hardwareconfig.java
   }
 }
