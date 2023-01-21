@@ -13,7 +13,11 @@ public class Teleop_test extends OpMode {
     @Override
     public void loop() {
         if(gamepad1.dpad_up)
+<<<<<<< Updated upstream
             hw.stanga.setPower(0.8);
+=======
+            hw.stanga.setPower(0.7);
+>>>>>>> Stashed changes
         else if (gamepad1.dpad_down) {
             hw.stanga.setPower(-1);
 
