@@ -30,5 +30,6 @@ public class ConfigTest extends OpMode {
         if (gamepad1.x)
             hw.brat.setPosition(0.5);
         else if (gamepad1.y) {hw.crapperClaw.setPosition(0.5);}
+        //
     }
 }
