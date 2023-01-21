@@ -22,16 +22,15 @@ public class Hardwareconfig {
   public Servo capper;
 
 
-  public Hardwareconfig(HardwareMap hw){
-      rata=hw.get(DcMotor.class,"rata");
-      intake=hw.get(DcMotor.class,"Intake");
-      servoIntake=hw.get(Servo.class,"servoIntake");
-      brat=hw.get(Servo.class, "brat");
-      cuvaL=hw.get(Servo.class, "cuvaL");
-      cuvaR=hw.get(Servo.class, "cuvaR");
-      pins=hw.get(Servo.class, "pins");
-      crapperClaw=hw.get(Servo.class, "crapperClaw");
-      capper=hw.get(Servo.class, "capper");
-      C:\Users\George\Documents\GitHub\Robot-test\TeamCode\src\main\java\org\firstinspires\ftc\teamcode\Hardwareconfig.java
+  public Hardwareconfig(HardwareMap hw) {
+      rata = hw.get(DcMotor.class, "rata");
+      intake = hw.get(DcMotor.class, "Intake");
+      servoIntake = hw.get(Servo.class, "servoIntake");
+      brat = hw.get(Servo.class, "brat");
+      cuvaL = hw.get(Servo.class, "cuvaL");
+      cuvaR = hw.get(Servo.class, "cuvaR");
+      pins = hw.get(Servo.class, "pins");
+      crapperClaw = hw.get(Servo.class, "crapperClaw");
+      capper = hw.get(Servo.class, "capper");
   }
 }
