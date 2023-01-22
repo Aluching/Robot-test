@@ -19,8 +19,8 @@ public class ConfigTest extends OpMode {
         hw.intake.setPower(LT);
 
         if(gamepad1.dpad_up)
-            hw.servoA.setPosition(0.5);
-        else if (gamepad1.dpad_down) { hw.servoB.setPosition(0.5);}
+            hw.servoL.setPosition(0.5);
+        else if (gamepad1.dpad_down) { hw.servoR.setPosition(0.5);}
 
         if (gamepad1.dpad_left)
             hw.capperBrat.setPosition(0.6);

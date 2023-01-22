@@ -25,11 +25,11 @@ public class Configuration extends OpMode {
         hw.capperBrat.setPosition(RT);
         hw.capperClaw.setPosition(LT);
 
-        if(JRY>0) hw.servoB.setPosition(JRY);
-        else if (JRY<=0) {hw.servoB.setPosition(-JRY);}
+        if(JRY>0) hw.servoR.setPosition(JRY);
+        else if (JRY<=0) {hw.servoR.setPosition(-JRY);}
 
-        if (JLY>0) hw.servoA.setPosition(JLY);
-        else if (JLY<=0) {hw.servoA.setPosition(-JLY);}
+        if (JLY>0) hw.servoL.setPosition(JLY);
+        else if (JLY<=0) {hw.servoL.setPosition(-JLY);}
 
         if (A) hw.clawAB.setPosition(0.35);
         else if (X) {hw.clawAB.setPosition(0.1);}

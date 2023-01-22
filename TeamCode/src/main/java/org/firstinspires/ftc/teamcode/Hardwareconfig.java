@@ -9,8 +9,8 @@ public class Hardwareconfig {
   public DcMotor ducks;
   public DcMotor intake;
   public Servo servoIntake;
-  public Servo servoA;
-  public Servo servoB;
+  public Servo servoL;
+  public Servo servoR;
   public Servo clawAB;
   public Servo capperClaw;
   public Servo capperBrat;
@@ -20,12 +20,12 @@ public class Hardwareconfig {
       ducks = hw.get(DcMotor.class, "rate");
       intake = hw.get(DcMotor.class, "intake");
       servoIntake = hw.get(Servo.class, "servoIntake");
-      servoA = hw.get(Servo.class, "cuvaL");
-      servoB = hw.get(Servo.class, "cuvaR");
+      servoL = hw.get(Servo.class, "cuvaL");
+      servoR = hw.get(Servo.class, "cuvaR");
       clawAB = hw.get(Servo.class, "impins");
       capperClaw = hw.get(Servo.class, "capperClaw");
       capperBrat = hw.get(Servo.class, "capperBrat");
 
-      servoA.setDirection(Servo.Direction.REVERSE);
+      servoL.setDirection(Servo.Direction.REVERSE);
   }
 }
