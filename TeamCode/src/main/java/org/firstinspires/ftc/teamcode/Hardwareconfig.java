@@ -22,7 +22,7 @@ public class Hardwareconfig {
       servoIntake = hw.get(Servo.class, "servoIntake");
       servoL = hw.get(Servo.class, "cuvaL");
       servoR = hw.get(Servo.class, "cuvaR");
-      clawAB = hw.get(Servo.class, "impins");
+      clawAB = hw.get(Servo.class, "clawAB");
       capperClaw = hw.get(Servo.class, "capperClaw");
       capperBrat = hw.get(Servo.class, "capperBrat");
 
