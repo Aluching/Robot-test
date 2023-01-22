@@ -20,10 +20,10 @@ public class ConfigTest extends OpMode {
 
         if(gamepad1.dpad_up)
             hw.cuvaL.setPosition(0.5);
-        else if (gamepad1.dpad_down) { hw.cuvaR.setPosition(0.6);}
+        else if (gamepad1.dpad_down) { hw.cuvaR.setPosition(0.5);}
 
         if (gamepad1.dpad_left)
-            hw.capperBrat.setPosition(0.5);
+            hw.capperBrat.setPosition(0.6);
         else if (gamepad1.dpad_right) { hw.capperBrat.setPosition(0.6);}
 
         if (gamepad1.start)

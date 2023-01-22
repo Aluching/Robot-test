@@ -25,5 +25,7 @@ public class Hardwareconfig {
       impins = hw.get(Servo.class, "impins");
       capperClaw = hw.get(Servo.class, "capperClaw");
       capperBrat = hw.get(Servo.class, "capperBrat");
+
+      cuvaL.setDirection(Servo.Direction.REVERSE);
   }
 }
